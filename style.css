@@ -1,0 +1,606 @@
+/* Estilos del mapa*/
+body {
+  font: 12px sans-serif;
+}
+
+path {
+  stroke-width: 1.5px;
+  stroke: #5e5e5e;
+  fill: white;
+  cursor: pointer;
+}
+
+path:hover, path.highlighted {
+  fill: tomato;
+}
+
+.tooltip {
+
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: none;
+
+}
+
+
+
+/* Estilos del sitio*/
+
+*{
+	margin:0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+
+/* Se establece las dimenciones y color de la barra del menu */
+header{
+	width: 100%;
+	height: 50px;
+	background: #0A0909;
+	
+}
+
+.espacio{
+	padding: 60px;
+}
+
+
+footer{
+	width: 100%;
+	height: 250px;
+	background: #0A0909;
+}
+/* se trasladan los elementos del menu a la derecha*/
+.menu{
+		float: right;
+}
+
+.link{
+	list-style: none;
+}
+/* se establece el diseno de los elementos del menu */
+.menu li{
+	list-style: none;
+	padding: 15px;
+	width: auto;
+	margin-right: 0;
+	
+}
+/* cambio de color al pasar el mouse */
+.menu li a:hover{
+	color:chocolate;
+}
+
+.menu li a{
+	padding: 0px;
+	text-decoration: none;
+	color:whitesmoke;
+	font-size: 16px;
+
+}
+
+
+.menu ul{
+	display: flex;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration-color: azure;
+	text-emphasis-color: antiquewhite;
+}
+
+/* distribucion de los fondos principal */
+.fondo{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fondo1{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/fondo1.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fondo2{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/fondo2.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.fondo3{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/fondo3.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fondo4{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/fondo4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* distribucion del texto en el fondo principal */
+.fuente-fondo{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+/* modificacion de etiqueta para el texto en el fondo */
+.fuente-fondo h3{
+    color: white;
+    font-size: 80px;
+}
+
+.fuente-fondo h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* Estilo del contenido principal */
+
+.contenido{
+    width: 100%;
+	margin-top: 50px;
+    background: WHITE;
+	margin: 20px;
+}
+
+/* Atributos del icono de cada seccion */
+
+.icono1{
+
+	padding: 50px;
+	background-image: url(img/icono_1.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.icono2{
+
+	padding: 50px;
+	background-image: url(img/icono_2.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin:9px;
+}
+
+.icono3{
+
+	padding: 50px;
+	background-image: url(img/icono_3.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.icono4{
+
+	padding: 50px;
+	background-image: url(img/icono_4.png);
+	background-position: center;
+	background-size: 140px;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.icono5{
+
+	padding: 50px;
+	background-image: url(img/icono_5.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.icono6{
+
+	padding: 50px;
+	background-image: url(img/icono_6.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+
+
+
+
+/* ESTILO DE LAS SECCIONES DIVIDIDAS EN COLUMNAS */
+.columnas{
+    width: 80%;
+    margin: 10px;
+	padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+    
+}
+
+/* ESTILO DE CADA SECCION  */
+
+.seccion{
+    width: 250px;
+    text-align: center;
+	padding: 10px;
+    margin: 20px; 
+    
+}
+
+.seccion p{
+	padding: 5px;
+	text-align: justify;
+}
+
+
+
+.icon-menu{
+	color: #e47171;
+    font-size: 40px;
+}
+
+.seccion2 h3{
+    color:aliceblue;
+	font-size: 12px;
+	padding: 5px;
+	font-style: italic;
+	font-weight: 100px;
+}
+
+.seccion2 li{
+	list-style: none;
+}
+
+.seccion2 h1{
+	list-style: none;
+	padding-left: 20px;
+	color:whitesmoke;
+	font-size: 12px;
+	font-style: oblique;
+}
+
+.seccion2{
+    width: 250px;
+    text-align: left;
+	padding: 40px;
+    
+}
+
+.columnas2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;	    
+}
+
+/* Diseno de contenido para las paginas secundarias*/
+.contenido-paginas{
+	width: 750px;
+	height: auto;
+    margin: auto;
+    text-align: justify;
+    position: relative;
+    top: 60px;
+}
+
+.contenido-paginas h2{
+	padding-top: 40px;
+    font-size: 25px;
+	color:chocolate;
+	align-content: flex-start;
+}
+
+.contenido-paginas h3{
+	
+    font-size: 45px;
+	color:black;
+	align-content: center;
+}
+
+.contenido-paginas p{
+	font-size: 20px;
+	padding-top: 10px;
+
+}
+
+
+/* DISENO PARA LAS PANTALLAS DE ANCHO MAX 780PX */
+
+@media screen and (max-width:780px){
+	.menu li{
+	list-style: none;
+	padding: 5px;
+	width: auto;
+	margin-right: 0;
+	
+}
+	header{
+	width: 100%;
+	height: 40px;
+	background: #0A0909;
+	
+	}
+	.menu{
+		margin: none;
+		padding: inherit;
+		
+	}
+	.menu li a{
+		
+	text-decoration: none;
+	font-size: 12px;
+	display: block;
+	
+
+	}
+	
+	
+	.fondo{
+    width: 100%;
+    height: 250px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+		
+	.fondo1{
+    width: 100%;
+    height: 200px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+
+	.fondo2{
+    width: 100%;
+    height: 250px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+	
+	.fondo3{
+    width: 100%;
+    height: 250px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+	
+	.fondo4{
+    width: 100%;
+    height: 250px;
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+	
+	.fuente-fondo{
+    width: 500px;
+    margin: auto;
+    text-align: auto;
+    position: auto;
+    top: 50px;
+}
+
+.fuente-fondo h3{
+    color: white;
+    font-size: 50px;
+}
+
+.fuente-fondo h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 100px;
+}
+footer{
+	width: 100%;
+	height: 160px;
+	background: #0A0909;
+}
+	
+.seccion2 h3{
+    color:aliceblue;
+	font-size: 8px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+		
+	font-style: italic;
+}
+
+.seccion2 li{
+	list-style: none;
+}
+
+.seccion2 h1{
+	list-style: none;
+	padding-left: 0;
+	color:whitesmoke;
+	font-size: 12px;
+	font-style: oblique;
+}
+
+.seccion2{
+    width: 250px;
+    text-align: left;
+	padding-top: 10px;
+    
+}
+
+.columnas2{
+    width: 100%;
+    margin: flex;
+    display: flex;
+    flex-wrap: nowrap;
+	padding: 0px;
+	padding-bottom: 0px;
+    justify-content: center;	    
+}
+	
+.contenido-paginas{
+	width: 480px;
+	height: auto;
+    margin: auto;
+    text-align: justify;
+    position: relative;
+    top: 60px;
+}
+	
+	
+
+.contenido-paginas h2{
+	padding-top: 20px;
+    font-size: 20px;
+	color:chocolate;
+	align-content: flex-start;
+}
+
+.contenido-paginas h3{
+	
+    font-size: 22px;
+	color:black;
+	align-content: center;
+}
+
+.contenido-paginas p{
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+
+/* DISENO PARA LAS PANTALLAS DE ANCHO MAX 480PX */
+
+@media screen and (max-width:480px){
+	
+	
+	.menu li{
+	
+	list-style: none;
+	padding: 3px;
+	width: 100%;
+
+}
+	header{
+	width: 100%;
+	height: 50px;
+	background: #0A0909;
+	
+	}
+	.menu{
+		margin: none;
+		padding: inherit;
+		
+	}
+	.menu li a{
+		
+	text-decoration: none;
+	font-size: 10px;
+	display: block;
+	}
+	
+	.fondo{
+    width: 100%;
+    height: 200px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.fondo2{
+    width: 100%;
+    height: 200px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.fondo3{
+    width: 100%;
+    height: 200px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.fondo4{
+    width: 100%;
+    height: 200px;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	.fuente-fondo{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.fuente-fondo h3{
+    color: white;
+    font-size: 40px;
+	width: 100%;
+}
+
+.fuente-fondo h2{
+	width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+	
+}
+	
+}
+
+
+/* DISENO PARA LAS PANTALLAS DE ANCHO MIN 1400PX */
+
+@media screen and (min-width : 1400px ){
+
+	.contenido{
+		padding: 40px;
+		align-content: center;
+	}
+	
+	.seccion{
+    width: 350px;
+    text-align: center;
+	padding: 10px;
+    margin: 20px; 
+    
+	}
+}
+}
