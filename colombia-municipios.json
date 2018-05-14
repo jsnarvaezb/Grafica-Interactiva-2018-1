@@ -514,7 +514,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "MAGDALENA",
-                    "name": "EL PI¥ON"
+                    "name": "EL PIÑON"
                 },
                 "id": "47258",
                 "arcs": [
@@ -854,7 +854,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "MAGDALENA",
-                    "name": "PIJI¥O DEL CARMEN"
+                    "name": "PIJIÑO DEL CARMEN"
                 },
                 "id": "47545",
                 "arcs": [
@@ -1134,7 +1134,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "CORDOBA",
-                    "name": "MO¥ITOS"
+                    "name": "MOÑITOS"
                 },
                 "id": "23500",
                 "arcs": [
@@ -1414,7 +1414,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "BOLIVAR",
-                    "name": "EL PE¥ON"
+                    "name": "EL PEÑON"
                 },
                 "id": "13268",
                 "arcs": [
@@ -1814,7 +1814,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "NORTE DE SANTANDER",
-                    "name": "OCA¥A"
+                    "name": "OCAÑA"
                 },
                 "id": "54498",
                 "arcs": [
@@ -2604,7 +2604,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "ANTIOQUIA",
-                    "name": "BRICE¥O"
+                    "name": "BRICEÑO"
                 },
                 "id": "05107",
                 "arcs": [
@@ -2794,7 +2794,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "ANTIOQUIA",
-                    "name": "CA¥ASGORDAS"
+                    "name": "CAÑASGORDAS"
                 },
                 "id": "05138",
                 "arcs": [
@@ -2894,7 +2894,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "ANTIOQUIA",
-                    "name": "SAN JOSE DE LA MONTA¥A"
+                    "name": "SAN JOSE DE LA MONTAÑA"
                 },
                 "id": "05658",
                 "arcs": [
@@ -3864,7 +3864,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "ANTIOQUIA",
-                    "name": "PE¥OL"
+                    "name": "PEÑOL"
                 },
                 "id": "05541",
                 "arcs": [
@@ -3934,7 +3934,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "VICHADA",
-                    "name": "PUERTO CARRE¥O"
+                    "name": "PUERTO CARREÑO"
                 },
                 "id": "99001",
                 "arcs": [
@@ -4194,7 +4194,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "SANTANDER",
-                    "name": "EL PE¥ON"
+                    "name": "EL PEÑON"
                 },
                 "id": "68250",
                 "arcs": [
@@ -5154,7 +5154,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "BOYACA",
-                    "name": "BRICE¥O"
+                    "name": "BRICEÑO"
                 },
                 "id": "15106",
                 "arcs": [
@@ -5234,7 +5234,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "ANTIOQUIA",
-                    "name": "NARI¥O"
+                    "name": "NARIÑO"
                 },
                 "id": "05483",
                 "arcs": [
@@ -6084,7 +6084,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "CUNDINAMARCA",
-                    "name": "EL PE¥ON"
+                    "name": "EL PEÑON"
                 },
                 "id": "25258",
                 "arcs": [
@@ -6164,7 +6164,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "CUNDINAMARCA",
-                    "name": "LA PE¥A"
+                    "name": "LA PEÑA"
                 },
                 "id": "25398",
                 "arcs": [
@@ -7924,7 +7924,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "CUNDINAMARCA",
-                    "name": "NARI¥O"
+                    "name": "NARIÑO"
                 },
                 "id": "25483",
                 "arcs": [
@@ -8534,7 +8534,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "TOLIMA",
-                    "name": "SALDA¥A"
+                    "name": "SALDAÑA"
                 },
                 "id": "73671",
                 "arcs": [
@@ -9944,7 +9944,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "CAQUETA",
-                    "name": "LA MONTA¥ITA"
+                    "name": "LA MONTAÑITA"
                 },
                 "id": "18410",
                 "arcs": [
@@ -10834,7 +10834,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "AMAZONAS",
-                    "name": "PUERTO NARI¥O"
+                    "name": "PUERTO NARIÑO"
                 },
                 "id": "91540",
                 "arcs": [
@@ -11004,7 +11004,7 @@
                 "type": "Polygon",
                 "properties": {
                     "dpt": "NARIÑO",
-                    "name": "EL PE¥OL"
+                    "name": "EL PEÑOL"
                 },
                 "id": "52254",
                 "arcs": [
